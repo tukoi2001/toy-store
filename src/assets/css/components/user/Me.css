@@ -1,0 +1,48 @@
+.myaccount-page-wrapper {
+    margin-bottom: 80px;
+}
+
+/* Sidebar */
+
+.myaccount-tab-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.myaccount-tab-menu ul li a {
+    border: 1px solid #efefef;
+    border-bottom: none;
+    color: #222222!important;
+    font-weight: 500;
+    display: block;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+}
+.myaccount-tab-menu ul li a:last-child {
+    border-bottom: 1px solid #efefef;
+}
+.myaccount-tab-menu ul li a:hover, .active {
+    background-color: #00c4cc;
+    border-color: #00c4cc;
+    color: #ffffff!important;
+    text-decoration : none;
+}
+
+.myaccount-tab-menu ul li a i {
+    text-align: center;
+    padding: 0 10px 0 5px;
+}
+
+/* Tab Contents */
+
+.myaccount-content {
+    border: 1px solid #efefef;
+    padding: 30px;
+    text-align: left;
+}
