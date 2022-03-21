@@ -32,7 +32,7 @@ import vuetify from './plugins/vuetify'
 
 Vue.use(VueFbCustomerChat, {
   page_id: 103769678951581, //  change 'null' to your Facebook Page ID,
-  theme_color: '#333333', // theme color in HEX
+  theme_color: '#0a7cff', // theme color in HEX
   locale: 'en_US', // default 'en_US'
 })
 /* add icons to the library */
